@@ -12,6 +12,13 @@ print(l1)
 # create list numbers odd between 155-300
 # [5, 8, 10, 200, -30, 50, 300, 2, 0] - print:
 #        index 2, 5, 8, ... without knowing len
+#          10, 50, 0
+# burgers = ['beef', 'chicken', 'veggie', 'Big America']
+#   print all the burgers using range
+#   print all the burgers reversed using range
+#      (without using the reverse command)
+#   print the burgers reversed , starting at -1
+
 
 
 
