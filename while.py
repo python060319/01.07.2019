@@ -21,8 +21,38 @@ print('exit loop.....')
 # 1
 # input numbers until avg > 80
 # if negative reciecved break the loop
+avg = 0
+sum = 0
+count = 0
+while avg <= 80:
+    number = int(input("Please enter a number: "))
+    if number < 0:
+        break
+    if number == 0:
+        continue # stops the current iteration
+                 # jumps to while condition check
+    count = count + 1
+    sum = sum + number
+    avg = sum / count
+    print(f"current avg is {avg}")
+
+print(f"average is {avg}")
+
 # 2
 # input numbers till 0 is recieved
 # for each number print 1-number range
+number = int(input("Please enter a number: "))
+while number != 0:
+    for n in range(1, number + 1):
+        print(n)
+    number = int(input("Please enter a number: "))
+
+# given this list:
+# [ 1, 5, -6, 2, 55, 'boom', 44]
+# go over this list (for or foreach or while)
+# print positive number from number to zero
+# ignore negative number (using continue)
+# 'boom' breaks the loop
+
 
 
