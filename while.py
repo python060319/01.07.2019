@@ -18,5 +18,11 @@ while number >= 0:
 print(f'the sum is {sum}')
 print('exit loop.....')
 
+# 1
 # input numbers until avg > 80
 # if negative reciecved break the loop
+# 2
+# input numbers till 0 is recieved
+# for each number print 1-number range
+
+
