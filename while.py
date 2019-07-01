@@ -1,4 +1,3 @@
-
 # foreach - given collection of items
 # for - given range
 
@@ -48,11 +47,18 @@ while number != 0:
     number = int(input("Please enter a number: "))
 
 # given this list:
-# [ 1, 5, -6, 2, 55, 'boom', 44]
+# [ 1, 5, -6, 2, 55, 0, 'boom', 44]
 # go over this list (for or foreach or while)
-# print positive number from number to zero
-# ignore negative number (using continue)
+# print numbers from number to zero (descending)
+# ignore negative/zero number (using continue)
 # 'boom' breaks the loop
-
+ls1 = [ 1, 5, -6, 2, 55, 0, 'boom', 44]
+for number in ls1:
+    if number == 'boom':
+        break
+    if number <= 0:
+        continue
+    for n in range(number, -1, -1):
+        print(n)
 
 
